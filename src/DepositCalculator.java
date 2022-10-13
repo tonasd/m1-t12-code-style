@@ -35,7 +35,8 @@ public class DepositCalculator {
         } else if (action == 2) {
             out = calculateComplexPercent(amount, 0.06, period);
         }
-        System.out.println("Результат вклада: " + amount + " за " + period + " лет превратятся в " + out);//Думаю, читабельность кода улучшится, если отделить строку вывода пустой строкой
+        
+        System.out.println("Результат вклада: " + amount + " за " + period + " лет превратятся в " + out);// ++Думаю, читабельность кода улучшится, если отделить строку вывода пустой строкой
     }
     
     // ++ И здесь я бы поставил пустую строчку
